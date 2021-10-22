@@ -58,14 +58,14 @@
 				<div class="docs-top-utilities d-flex justify-content-end align-items-center">
 
 					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
-						<li class="list-inline-item"><a href="https://github.com/projectkenneth"><i
+						<li class="list-inline-item"><a href="https://github.com/projectkenneth" target="_blank"><i
 									class="fab fa-github fa-fw"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/ProjectKenneth"><i
+						<li class="list-inline-item"><a href="https://twitter.com/ProjectKenneth" target="_blank"><i
 									class="fab fa-twitter fa-fw"></i></a></li>
 					</ul>
 					<!--//social-list-->
 					<a href="https://twitter.com/intent/tweet?text=Check%20out%20DevPinch!%20They%20offer%20a%20collection%20of%20close%20to%20real-world%20projects%20you%20can%20browse%20through%20to%20learn%20developer%20concepts.%20Click%20below!%20https://devpinch.online/"
-						class="btn btn-primary d-none d-lg-flex">Tweet About Us</a>
+						class="btn btn-primary d-none d-lg-flex" target="_blank">Tweet About Us</a>
 				</div>
 				<!--//docs-top-utilities-->
 			</div>
@@ -81,11 +81,12 @@
 			<nav id="docs-nav" class="docs-nav navbar">
 				<ul class="section-items list-unstyled nav flex-column pb-3">
 					<li class="nav-item section-title"><a class="nav-link scrollto" href="#intro"><span
-								class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Project
-							Description</a>
+								class="theme-icon-holder me-2"><i class="fas fa-laptop-code"></i></span>Speed Build</a>
 					</li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#quick-demo">Quick Demo</a></li>
 					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#code"><span
 								class="theme-icon-holder me-2"><i class="fas fa-code"></i></span>Code</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#tech-stack">Tech Stack</a></li>
 					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#tutorials"><span
 								class="theme-icon-holder me-2"><i class="fas fa-lightbulb"></i></span>Tutorials</a></li>
 				</ul>
@@ -101,61 +102,82 @@
 						<h1 class="docs-heading">Speed Build <span class="docs-time">Last
 								updated: 2021-10-22</span>
 						</h1>
-						<h2 class="section-heading">Project Description</h2>
 						<section class="docs-intro">
 							<p>In this project, we built a low-code app builder with React and ReactFlow. The intention
 								is to cover concepts like
 								component-to-component communication as well as dynamic component rendering.</p>
 							<p>Additionally, we'll also cover the proper way to incorporate 3rd-party libraries and
 								components into an application.</p>
-							<p>Here's a quick demo:</p>
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/O5j7wwODlQc"
-								title="YouTube video player" frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-								allowfullscreen></iframe>
+						</section>
+						<section class="docs-section" id="quick-demo">
+							<h2 class="section-heading">Quick Demo</h2>
+							<div class="row">
+								<div class="col-12 col-md-8">
+									<div class="ratio ratio-16x9">
+										<iframe src="https://www.youtube.com/embed/O5j7wwODlQc"
+											title="YouTube video player" frameborder="0"
+											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+											allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</section>
+					</header>
+				</article>
+				<article class="docs-article" id="code">
+					<header class="docs-header">
+						<h1 class="docs-heading">Code</h1>
+						<section class="docs-intro">
+							<p>The whole project's codebase is available at GitHub.</p>
+							<a href="https://github.com/projectkenneth/react-low-code-app-builder"
+								class="btn btn-secondary" target="_blank"><i class="fab fa-github me-2"></i> View on GitHub</a>.</p>
+						</section>
+						<section class="docs-section" id="tech-stack">
+							<h2 class="section-heading">Tech Stack</h2>
+							<ul>
+								<li><a href="https://reactjs.org/" target="_blank">React</a> - the main frontend library used in the
+									app.</li>
+								<li><a href="https://reactflow.dev/" target="_blank">ReactFlow</a> - the 3rd-party library used to
+									render interactive diagrams.</li>
+							</ul>
+						</section>
+					</header>
+				</article>
+				<article class="docs-article" id="tutorials">
+					<header class="docs-header">
+						<h1 class="docs-heading">Tutorials</h1>
+						<section class="docs-intro">
+							<p>In this section, we list down the articles covering the technical concepts and strategies
+								used in this learning project.</p>
+							<div class="table-responsive my-4">
+								<table class="table table-bordered">
+									<thead>
+										<tr>
+											<th class="theme-bg-light">Concept</th>
+											<th class="theme-bg-light">Article(s)</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Incorporating 3rd-party components</th>
+											<td><a href="https://www.freecodecamp.org/news/adapter-design-in-react/"
+													rel="nofollow">How to Use the Adapter Design Pattern in React</a>
+											</td>
+										</tr>
+										<tr>
+											<td>Dynamic component rendering</th>
+											<td><em>(Article pending)</em></td>
+										</tr>
+										<tr>
+											<td>Component-to-component communication</th>
+											<td><em>(Article pending)</em></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</section>
 						<!--//docs-intro-->
 					</header>
-					<section class="docs-section" id="code">
-						<h2 class="section-heading">Code</h2>
-						<p>The whole project's codebase can be found at <a
-								href="https://github.com/projectkenneth/react-low-code-app-builder">GitHub</a>.</p>
-						<p>The teck stack used:</p>
-						<ul>
-							<li><a href="https://reactjs.org/">React</a></li>
-							<li><a href="https://reactflow.dev/">ReactFlow</a></li>
-						</ul>
-					</section>
-					<section class="docs-section" id="tutorials">
-						<h2 class="section-heading">Tutorials</h2>
-						<p>In this section, we list down the articles covering the technical concepts and strategies
-							used in this learning project.</p>
-						<div class="table-responsive my-4">
-							<table class="table table-bordered">
-								<thead>
-									<tr>
-										<th class="theme-bg-light">Concept</th>
-										<th class="theme-bg-light">Article(s)</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Incorporating 3rd-party components</th>
-										<td><a href="https://www.freecodecamp.org/news/adapter-design-in-react/"
-												rel="nofollow">How to Use the Adapter Design Pattern in React</a></td>
-									</tr>
-									<tr>
-										<td>Dynamic component rendering</th>
-										<td><em>(Article pending)</em></td>
-									</tr>
-									<tr>
-										<td>Component-to-component communication</th>
-										<td><em>(Article pending)</em></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</section>
 				</article>
 				<!--//docs-article-->
 
@@ -164,9 +186,9 @@
 					<div class="footer-bottom text-center py-5">
 
 						<ul class="social-list list-unstyled pb-4 mb-0">
-							<li class="list-inline-item"><a href="https://github.com/projectkenneth"><i
+							<li class="list-inline-item"><a href="https://github.com/projectkenneth" target="_blank"><i
 										class="fab fa-github fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="https://twitter.com/ProjectKenneth"><i
+							<li class="list-inline-item"><a href="https://twitter.com/ProjectKenneth" target="_blank"><i
 										class="fab fa-twitter fa-fw"></i></a></li>
 						</ul>
 						<!--//social-list-->
