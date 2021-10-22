@@ -144,6 +144,44 @@
 									render interactive diagrams.</li>
 							</ul>
 						</section>
+						<section class="docs-section" id="wireframes">
+							<h2 class="section-heading">Wireframes</h2>
+							<p>In this section, we'll look at the component wireframe for Speed Build.</p>
+							<div class="my-4">
+								<h5>Homepage Wireframe</h5>
+								<div class="row my-3">
+									<div class="col-12 col-md-8">
+										<img class="figure-img img-fluid shadow rounded"
+											src="assets/images/speed-build/Homepage.png" alt=""
+											title="Wireframe - Speed Build Homepage">
+									</div>
+								</div>
+								<ul>
+									<li><strong>Sidebar</strong> - contains the toolbox where the user can drag diagram
+										nodes from.</li>
+									<li><strong>DiagramAdapter</strong> - renders the nodes representing the output
+										application.</li>
+									<li><strong>PropertyPanel</strong> - this is actually only a placeholder. Depending
+										on the selected node in the diagram, the component rendered in this placeholder
+										will differ.</li>
+									<li><strong>CodeDisplay</strong> - renders the generated code based on the nodes in
+										the diagram.</li>
+								</ul>
+							</div>
+							<div class="my-4">
+								<h5>DiagramAdapter Wireframe</h5>
+								<div class="row my-3">
+									<div class="col-12 col-md-8">
+										<img class="figure-img img-fluid shadow rounded"
+											src="assets/images/speed-build/DiagramAdapter.png" alt=""
+											title="Wireframe - Speed Build Homepage">
+									</div>
+								</div>
+								<p>The <strong>DiagramAdapter</strong> is the adapter component wrapping the
+									<strong>ReactFlow</strong> component. This adapter component abstracts the main application from the ReactFlow library.
+								</p>
+							</div>
+						</section>
 					</header>
 				</article>
 				<article class="docs-article" id="tutorials">
